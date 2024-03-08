@@ -4,12 +4,15 @@
   "description": "React + TS JIRA 开发者工具",
   "author": "sindu12jun",
   "license": "MIT",
-  "repository": "sindu12jun/jira-dev-tool3",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",
   "engines": {
     "node": ">=10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sindu12jun/jira-dev-tool"
   },
   "scripts": {
     "build": "microbundle-crl --no-compress --format modern,cjs",
